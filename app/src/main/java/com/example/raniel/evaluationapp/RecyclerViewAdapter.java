@@ -63,6 +63,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             super(v);
             mTextView = v.findViewById(R.id.surveyName);
             cardView = v.findViewById(R.id.cardView);
+            //cardView.setBackgroundColor();
         }
     }
 }

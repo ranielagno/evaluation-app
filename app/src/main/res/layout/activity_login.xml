@@ -13,8 +13,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log In"
-        android:textSize="30dp"/>
+        android:text="Welcome Back"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#444645"
+        />
     <!-- Login progress -->
     <ProgressBar
         android:id="@+id/login_progress"
@@ -68,6 +71,14 @@
 
             </android.support.design.widget.TextInputLayout>
 
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="Remember Me"
+                android:textColor="#2c2c2c"/>
+
             <Button
                 android:id="@+id/email_sign_in_button"
                 style="?android:textAppearanceSmall"
@@ -75,7 +86,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/action_sign_in"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="#3aaf9c"/>
 
         </LinearLayout>
     </ScrollView>

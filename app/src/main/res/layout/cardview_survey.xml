@@ -15,7 +15,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Survey Name"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:background="#18b15e"
         android:gravity="center"/>
 
 </android.support.v7.widget.CardView>
